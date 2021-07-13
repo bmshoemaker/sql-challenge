@@ -89,6 +89,6 @@ GROUP BY last_name
 ORDER BY "Frequency Count of Last Name" DESC;
 
 -- Epilogue
-select first_name, last_name
-from employees
-where emp_no= '499942';
+SELECT first_name, last_name
+FROM employees
+WHERE emp_no= '499942';
