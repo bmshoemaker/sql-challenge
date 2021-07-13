@@ -86,4 +86,4 @@ FROM employees
 SELECT last_name, COUNT(last_name) AS "Frequency Count of Last Name"
 FROM employees
 GROUP BY last_name
-ORDER BY "Frequency Count of Last Name" DESC
+ORDER BY "Frequency Count of Last Name" DESC;
