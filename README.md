@@ -14,36 +14,22 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 Note: You may hear the term "Data Modeling" in place of "Data Engineering," but they are the same terms. Data Engineering is the more modern wording instead of Data Modeling.
 
-### Before You Begin
-
-1. Create a new repository for this project called `sql-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the SQL challenge. Use a folder name to correspond to the challenge: **EmployeeSQL**.
-
-4. Add your files to this folder.
-
-5. Push the above changes to GitHub.
-
-## Instructions
 
 #### Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+The model for the task below is found in the Data Model folder within the EmployeeSQL folder.
+  
+  * Inspect the CSVs and sketch out an ERD of the tables. 
 
 #### Data Engineering
 
-* Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
-
-  * For the primary keys check to see if the column is unique, otherwise create a [composite key](https://en.wikipedia.org/wiki/Compound_key). Which takes to primary keys in order to uniquely identify a row.
-  * Be sure to create tables in the correct order to handle foreign keys.
+The .sql file of the table schemata for the below task is in the Data Engineering folder within the EmployeeSQL folder:
 
 * Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
 #### Data Analysis
 
-Once you have a complete database, do the following:
+The .sql file used to query the tasks below is found in the Data Analysis folder within the EmployeeSQL folder:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
@@ -65,19 +51,10 @@ Once you have a complete database, do the following:
 
 Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
-## Submission
+This query returns "April Foolsday"
 
-* Create an image file of your ERD.
 
-* Create a `.sql` file of your table schemata.
 
-* Create a `.sql` file of your queries.
 
-* (Optional) Create a Jupyter Notebook of the bonus analysis.
-
-* Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-- - -
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
